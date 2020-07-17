@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.xyzreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:7:5-81
+12-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+13-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:8:5-75
+13-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:9:5-79
+14-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:9:22-76
+15
+16    <application
+16-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:11:5-46:19
+17        android:allowBackup="true"
+17-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/arman/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:14:9-41
+22        android:testOnly="true"
+23        android:theme="@style/Theme.Bacon" >
+23-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:15:9-43
+24        <activity
+24-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
+25            android:name="com.example.xyzreader.ui.ArticleListActivity"
+25-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:18:13-51
+26            android:label="@string/app_name" >
+26-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:19:13-45
+27            <intent-filter>
+27-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:20:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:21:17-69
+28-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:22:17-77
+30-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:26:9-37:20
+34            android:name="com.example.xyzreader.ui.ArticleDetailActivity"
+34-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:27:13-53
+35            android:parentActivityName="com.example.xyzreader.ui.ArticleListActivity" >
+35-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:28:13-65
+36            <intent-filter>
+36-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:29:13-33:29
+37                <action android:name="android.intent.action.VIEW" />
+37-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:30:17-69
+37-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:30:25-66
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:31:17-76
+39-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:31:27-73
+40
+41                <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
+41-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:32:17-100
+41-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:32:23-97
+42            </intent-filter>
+43
+44            <meta-data
+44-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:34:13-36:59
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:35:17-63
+46                android:value=".ui.ArticleListActivity" />
+46-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:36:17-56
+47        </activity>
+48
+49        <service
+49-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:39:9-40:40
+50            android:name="com.example.xyzreader.data.UpdaterService"
+50-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:39:18-53
+51            android:exported="false" />
+51-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:40:13-37
+52
+53        <provider
+53-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:42:9-44:40
+54            android:name="com.example.xyzreader.data.ItemsProvider"
+54-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:42:19-53
+55            android:authorities="com.example.xyzreader"
+55-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:43:13-56
+56            android:exported="false" />
+56-->/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/AndroidManifest.xml:44:13-37
+57    </application>
+58
+59</manifest>
