@@ -64,16 +64,13 @@
         android:layout_marginTop="@dimen/detail_scroll_top_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <androidx.core.widget.NestedScrollView
-            android:layout_width="@dimen/detail_card_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@android:color/white"
-            app:cardElevation="@dimen/card_elevation">
+
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/detail_card_width"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:elevation="@dimen/card_elevation"
                 android:orientation="vertical"
                 android:background="@android:color/white">
 
@@ -123,7 +120,7 @@
                     android:textColor="@color/dark_gray"
                     android:textColorLink="@color/color_accent" />
             </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
+
 
     </androidx.core.widget.NestedScrollView>
 

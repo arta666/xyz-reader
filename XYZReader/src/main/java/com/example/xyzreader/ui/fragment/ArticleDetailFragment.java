@@ -269,6 +269,7 @@ public class ArticleDetailFragment extends Fragment implements
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d(TAG, "onOptionsItemSelected: in fragment");
         if (item.getItemId() == android.R.id.home) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 Objects.requireNonNull(getActivity()).supportFinishAfterTransition();

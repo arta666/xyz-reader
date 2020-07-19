@@ -1,4 +1,4 @@
-#Sun Jul 19 21:58:52 IRDT 2020
+#Sun Jul 19 22:38:31 IRDT 2020
 base.0=/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

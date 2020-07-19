@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
@@ -42,6 +43,8 @@ import static com.example.xyzreader.app.Constant.EXTRA_STARTING_ARTICLE_POSITION
 
 public class ArticleDetailActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
+
+    private static final String TAG = ArticleDetailActivity.class.getSimpleName();
 
     public final static String ARTICLE_ID = "ARTICLE_ID";
 
@@ -88,15 +91,13 @@ public class ArticleDetailActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         binding = ActivityArticleDetailBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            View decorView = getWindow().getDecorView();
-            int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
-            decorView.setSystemUiVisibility(uiOptions);
-            ActionBar actionBar = getActionBar();
-            if (actionBar != null) {
-                actionBar.hide();
-            }
-        }
+
+        hideStatusBar();
+
+//        ActionBar actionBar = getActionBar();
+//        if (actionBar != null) {
+//            actionBar.hide();
+//        }
         setContentView(view);
         postEnter();
 
@@ -119,6 +120,15 @@ public class ArticleDetailActivity extends AppCompatActivity
         setUpViewPager();
 
 
+    }
+
+    private void hideStatusBar() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            View decorView = getWindow().getDecorView();
+            int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+            decorView.setSystemUiVisibility(uiOptions);
+
+        }
     }
 
     private void postEnter() {
@@ -147,6 +157,11 @@ public class ArticleDetailActivity extends AppCompatActivity
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        hideStatusBar();
+    }
 
     @Override
     protected void onSaveInstanceState(@NotNull Bundle outState) {
@@ -198,6 +213,7 @@ public class ArticleDetailActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d(TAG, "onOptionsItemSelected: in Activity");
         return true;
     }
 
