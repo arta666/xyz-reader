@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi_logo.png.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-xxhdpi/logo.png"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/animator_fab_press.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/animator/fab_press.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -16,6 +16,46 @@
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/animator_fab_default.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/animator/fab_default.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/font_rosario_regular.ttf.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/font/rosario_regular.ttf"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_padded_divider.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/padded_divider.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_fragment_article_detail.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/fragment_article_detail.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_photo_background_protection.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/photo_background_protection.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-v21_white_selectable_item_background_circle.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-v21/white_selectable_item_background_circle.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi_logo.png.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_white_selectable_item_background_circle.xml.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/white_selectable_item_background_circle.xml"
     },
@@ -28,55 +68,59 @@
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/list_item_article.xml"
     },
     {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_add_fab_background.xml.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/add_fab_background.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/anim_splash_transition.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/anim/splash_transition.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-nodpi_empty_detail.png.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-nodpi/empty_detail.png"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_list_scrim.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/list_scrim.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_share.png.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-xxhdpi/ic_share.png"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_padded_divider.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/padded_divider.xml"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout-land_fragment_article_detail.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout-land/fragment_article_detail.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_activity_article_list.xml.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_article_list.xml"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_fragment_article_detail.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/fragment_article_detail.xml"
-    },
-    {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/anim-v21_fab_state_list_anim.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/anim-v21/fab_state_list_anim.xml"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_article_placeholder_item.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/article_placeholder_item.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_arrow_back.png.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-xxhdpi/ic_arrow_back.png"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable_photo_background_protection.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable/photo_background_protection.xml"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/transition_explode.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/transition/explode.xml"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/menu_main.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/menu/main.xml"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/transition-v21_detail_transition_exit.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/transition-v21/detail_transition_exit.xml"
     },
     {
         "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/layout_activity_article_detail.xml.flat",
         "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_article_detail.xml"
     },
     {
-        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/drawable-v21_white_selectable_item_background_circle.xml.flat",
-        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/drawable-v21/white_selectable_item_background_circle.xml"
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/res/merged/debug/transition-v21_detail_transition_enter.xml.flat",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/transition-v21/detail_transition_enter.xml"
     }
 ]

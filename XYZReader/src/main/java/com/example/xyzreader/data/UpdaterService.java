@@ -21,12 +21,16 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class UpdaterService extends IntentService {
+
     private static final String TAG = "UpdaterService";
 
     public static final String BROADCAST_ACTION_STATE_CHANGE
             = "com.example.xyzreader.intent.action.STATE_CHANGE";
     public static final String EXTRA_REFRESHING
             = "com.example.xyzreader.intent.extra.REFRESHING";
+
+    public static final String BROADCAST_ACTION_NO_CONNECTIVITY
+            = "com.example.xyzreader.intent.action.NO_CONNECTIVITY";
 
     public UpdaterService() {
         super(TAG);
@@ -47,7 +51,7 @@ public class UpdaterService extends IntentService {
                 new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true));
 
         // Don't even inspect the intent, we only do one thing, and that's fetch content.
-        ArrayList<ContentProviderOperation> cpo = new ArrayList<ContentProviderOperation>();
+        ArrayList<ContentProviderOperation> cpo = new ArrayList<>();
 
         Uri dirUri = ItemsContract.Items.buildDirUri();
 
@@ -70,7 +74,8 @@ public class UpdaterService extends IntentService {
                 values.put(ItemsContract.Items.THUMB_URL, object.getString("thumb" ));
                 values.put(ItemsContract.Items.PHOTO_URL, object.getString("photo" ));
                 values.put(ItemsContract.Items.ASPECT_RATIO, object.getString("aspect_ratio" ));
-                values.put(ItemsContract.Items.PUBLISHED_DATE, object.getString("published_date"));
+                time.parse3339(object.getString("published_date"));
+                values.put(ItemsContract.Items.PUBLISHED_DATE, time.toMillis(false));
                 cpo.add(ContentProviderOperation.newInsert(dirUri).withValues(values).build());
             }
 

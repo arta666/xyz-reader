@@ -4,13 +4,13 @@
             "outputFile": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
+                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "from": {
-                        "startLines": "2,5,4",
+                        "startLines": "3,6,5",
                         "startColumns": "4,4,4",
-                        "startOffsets": "36,133,81",
+                        "startOffsets": "75,172,120",
                         "endColumns": "43,54,51",
-                        "endOffsets": "75,183,128"
+                        "endOffsets": "114,222,167"
                     },
                     "to": {
                         "startLines": "2,3,4",

@@ -4,20 +4,39 @@
             "outputFile": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-land/macro_layout.xml",
+                    "source": "/Users/arman/.gradle/caches/transforms-2/files-2.1/081958b85be993b26123dd5b1125e07f/material-1.1.0/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,36",
-                        "endColumns": "57,51",
-                        "endOffsets": "141,83"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340,405,472,542,614,683,752,834,924,1000,1068,1135,1213,1278,1345,1517,1912",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,29,34",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "123,193,265,335,400,467,537,609,678,747,829,919,995,1063,1130,1208,1273,1340,1512,1907,2176"
                     },
                     "to": {
-                        "startLines": "5,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "264,322",
-                        "endColumns": "57,51",
-                        "endOffsets": "317,369"
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,30,34,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "574,647,717,789,859,924,991,1061,1133,1202,1271,1353,1443,1519,1587,1654,1782,1847,1914,2086,2481",
+                        "endLines": "11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,33,39,44",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "642,712,784,854,919,986,1056,1128,1197,1266,1348,1438,1514,1582,1649,1727,1842,1909,2081,2476,2745"
+                    }
+                },
+                {
+                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "10,9,8,7,11,3,4",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "351,301,243,191,396,73,120",
+                        "endColumns": "44,49,57,51,57,46,49",
+                        "endOffsets": "391,346,296,238,449,115,165"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,27",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "264,309,359,417,469,527,1732",
+                        "endColumns": "44,49,57,51,57,46,49",
+                        "endOffsets": "304,354,412,464,522,569,1777"
                     }
                 },
                 {

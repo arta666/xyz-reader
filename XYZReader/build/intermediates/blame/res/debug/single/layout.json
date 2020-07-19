@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_article_detail.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/fragment_article_detail.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/article_placeholder_item.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/article_placeholder_item.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_article_detail.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_article_detail.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_article_list.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/activity_article_list.xml"
+    },
+    {
+        "merged": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_item_article.xml",
+        "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/layout/list_item_article.xml"
+    }
+]

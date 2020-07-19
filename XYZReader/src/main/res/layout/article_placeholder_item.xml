@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding">
+
+
+        <View
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/placeholder_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/placeholder_bg"
+            android:paddingLeft="@dimen/card_inside_text_padding"
+            android:paddingTop="@dimen/card_inside_text_padding"
+            android:paddingRight="@dimen/card_inside_text_padding"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/placeholder_text_height"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/placeholder_bg"
+        android:paddingLeft="@dimen/card_inside_text_padding"
+        android:paddingTop="@dimen/card_inside_text_padding"
+        android:paddingRight="@dimen/card_inside_text_padding"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/placeholder_text_height"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/placeholder_bg"
+        android:paddingLeft="@dimen/card_inside_text_padding"
+        android:paddingTop="@dimen/card_inside_text_padding"
+        android:paddingRight="@dimen/card_inside_text_padding"/>
+
+    </LinearLayout>

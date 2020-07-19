@@ -4,13 +4,13 @@
             "outputFile": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w800dp-v13/values-w800dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
+                    "source": "/Users/arman/MyProjects/xyz-reader-starter-code/XYZReader/src/main/res/values-w800dp/dimens.xml",
                     "from": {
-                        "startLines": "7,2,3,4",
+                        "startLines": "8,3,4,5",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "232,34,82,161",
+                        "startOffsets": "271,73,121,200",
                         "endColumns": "53,47,55,49",
-                        "endOffsets": "281,77,133,206"
+                        "endOffsets": "320,116,172,245"
                     },
                     "to": {
                         "startLines": "2,3,4,5",
